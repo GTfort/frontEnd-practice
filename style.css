@@ -1,0 +1,130 @@
+:root {
+  --blue: #4c5fd5;
+  --white: #ffffff;
+  --font-1: Arial;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-1);
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 22px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+form {
+  background-color: gainsboro;
+  margin-top: 2em;
+  padding: 5em;
+  text-align: center;
+}
+.submit-btn,
+.sign-btn {
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  margin-top: 45px;
+}
+
+section {
+  background-color: white;
+}
+.abstract,
+.help-center {
+  color: white;
+}
+.abstract-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-left: 29px;
+}
+.help-center {
+  border-left: 2px solid white;
+  padding-left: 4px;
+}
+.abstract {
+  margin-right: 2px;
+}
+.sign-btn {
+  background-color: var(--blue);
+  padding: 12px;
+  border: black;
+  color: white;
+}
+.submit-btn {
+  padding: 12px;
+  border: white 1px solid;
+  background-color: black;
+  color: white;
+}
+.btn {
+  padding-right: 30px;
+}
+form > h1 {
+  margin-bottom: 22px;
+  font-size: 44px;
+}
+form > input {
+  width: 50%;
+  height: 4em;
+  border: gray 1px solid;
+  box-shadow: 3px 3px 5px gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+footer > ul > li > a {
+  color: #fff;
+}
+img {
+  height: 4em;
+  padding-right: 15px;
+}
+footer {
+  display: flex;
+  color: white;
+}
+section {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  padding: 70px;
+}
+.container {
+  display: flex;
+}
+.small {
+  margin-bottom: 59px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 20em;
+  margin: 5rem;
+}
+.link-item {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.list {
+  list-style: none;
+}
+/* .second-child {
+  margin-top: 2rem;
+} */
